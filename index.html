@@ -8,8 +8,11 @@
 
     <link rel="icon" href="imgs/wheat-grain-agriculture-logo-design-template-vector-removebg-preview.png">
     <title>satas</title>
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
@@ -18,11 +21,11 @@
 </head>
 <body>
 <!--nav-bar-start-->
-<div class="container">
-    <div class="row">
-        <div class="nav" >
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-outer">
-                <img src="logo/istockphoto-1488630377-612x612.jpg" alt="" style="height: 80px;width: 100px;margin-right: 50px">
+<div class="container-fluid" id="nav-bg">
+    <div class="row" id="nav-row">
+        <div class="nav" id="nav-main" >
+            <nav class="navbar navbar-expand-lg navbar-light" id="nav-outer">
+                <img src="logo/Head-01.png" alt="" style="height: 80px;width: 200px;margin-right: 0px">
                 <!--<a class="navbar-brand" href="#">Your Website</a>-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -30,15 +33,15 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav" id="nav-language" >
                         <li class="nav-item active">
-                                <li><button type="button" class="btn btn-light">English</button></li>
+                                <li ><button type="button" class="btn btn-light">English</button></li>
                                 <li><button type="button" class="btn btn-light">සිංහල</button></li>
                                 <li><button type="button" class="btn btn-light">தமிழ்</button></li>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" id="login-id">
                             <a class="nav-link" href= ""><i class="fa-solid fa-user fa-lg"></i>&nbsp;Login</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href=""><button type="button" class="btn btn-warning">POST ADD NOW</button>
+                        <li class="nav-item" id="Postadd-id">
+                            <a class="nav-link" href=""><button type="button" id="post-addBtn" class="btn btn-warning">POST ADD NOW</button>
                             </a>
                         </li>
                     </ul>
@@ -48,17 +51,129 @@
     </div>
 </div>
 <!--nav-bar-end-->
-<div class="container"
-style=" width: 100%;
-    height: 20px;
-    border: 1px solid red;">
+<div class="container-fluid" id="spacer-1">
 
 </div>
+<!--search bar start-->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+            <div class="input-group search-bar">
+                <input type="text" class="form-control" placeholder="Search...">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button" id="searchBtn">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--search bae end-->
+<!--Spacer-->
+<div class="container" id="spacer-2">
 
+</div>
+<!--Category start-->
+<div class="container-fluid">
+    <div class="container" id="category">
+        <div class="row-1"class="col-lg-2 col-md-3 col-6">
+            <ul>
+                <li><i class="fa-solid fa-house fa-xl" ;></i>
+                <h5>Property</h5>
+                    <h6 style="font-family: 'Fira Sans', sans-serif;font-size: 10px">Total Adds</h6>
+                </li>
+                <li><i class="fa-solid fa-car fa-xl" ;></i>
+                <h5>
+                    Vehicles
+                </h5>                    <h6 style="font-family: 'Fira Sans', sans-serif;font-size: 10px">Total Adds</h6>
+                </li>
+                <li><i class="fa-solid fa-laptop fa-xl" ;></i>
+                <h5>Electronics</h5>                    <h6 style="font-family: 'Fira Sans', sans-serif;font-size: 10px">Total Adds</h6>
+                </li>
+            </ul>
+        </div>
+        <div class="row-2"class="col-lg-2 col-md-3 col-6">
+            <ul>
+                <li><i class="fa-solid fa-cat fa-xl";></i>
+                <h5>
+                    Animals
+                </h5>                    <h6 style="font-family: 'Fira Sans', sans-serif;font-size: 10px">Total Adds</h6>
+                </li>
+                <li><i class="fa-solid fa-wand-sparkles fa-xl";></i>
+                <h5>Beauty & Fashion </h5>                    <h6 style="font-family: 'Fira Sans', sans-serif;font-size: 10px">Total Adds</h6>
+                </li>
+                <li><i class="fa-solid fa-user-doctor fa-xl";></i>
+                <h5>Jobs</h5>                    <h6 style="font-family: 'Fira Sans', sans-serif;font-size: 10px">Total Adds</h6>
+                </li>
+            </ul>
+        </div>
+        <div class="row-3"class="col-lg-2 col-md-3 col-6">
+            <ul>
+                <li><i class="fa-solid fa-book fa-xl";></i>
+                <h5>Eduction</h5>                    <h6 style="font-family: 'Fira Sans', sans-serif;font-size: 10px">Total Adds</h6>
+                </li>
+                <li><i class="fa-solid fa-table-tennis-paddle-ball fa-xl";></i>
+               <h5>
+                   Sports and Games
+               </h5>                     <h6 style="font-family: 'Fira Sans', sans-serif;font-size: 10px">Total Adds</h6>
+                </li>
+                <li><i class="fa-solid fa-gear fa-xl";></i>
+                <h5>services</h5>                    <h6 style="font-family: 'Fira Sans', sans-serif;font-size: 10px">Total Adds</h6>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--Category End-->
+<!--quick links-->
+<div class="container">
+    <div class="row">
+        <!-- Use col-lg-4 for large screens (desktop), col-md-6 for medium screens (tablets), and col-12 for small screens (phones) -->
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Card 1</h5>
+                    <p class="card-text">This is the content of Card 1.</p>
+                </div>
+            </div>
+        </div>
 
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Card 2</h5>
+                    <p class="card-text">This is the content of Card 2.</p>
+                </div>
+            </div>
+        </div>
 
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Card 3</h5>
+                    <p class="card-text">This is the content of Card 3.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr class="custom-hr">
 <!--footer start-->
-
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="footer">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Portfolio</li>
+                    <li>Contact</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
