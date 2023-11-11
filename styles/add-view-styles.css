@@ -1,0 +1,40 @@
+#add-container{
+
+    display: inherit;
+
+}
+#add-container .add-head{
+    width: 100%;
+    height: 60px;
+
+display: inherit;
+
+}
+
+#add-container .add{
+    width: 100%;
+    height: 150px;
+    border: 1px solid red;
+    display: flex;
+}
+#add-container .add-head >ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    justify-content: center;
+}
+#add-container .add-head >ul>li{
+    align-items: center;
+    justify-content: center;
+
+    padding:10px;
+    display: flex;
+}
+#add-container .add-head >ul>li:hover{
+    color: #FCD735;
+    cursor: pointer;
+}
+
+.search-container{
+
+}
