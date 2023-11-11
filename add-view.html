@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="icon" href="imgs/wheat-grain-agriculture-logo-design-template-vector-removebg-preview.png">
+  <title>satas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/add-view-styles.css">
+  <link rel="stylesheet" href="styles/add-details.css">
+
+</head>
+<body>
+<!--nav-bar-start-->
+<div class="container-fluid" id="nav-bg">
+  <div class="row" id="nav-row">
+    <div class="nav" id="nav-main" >
+      <nav class="navbar navbar-expand-lg navbar-light" id="nav-outer">
+        <img src="logo/Head-01.png" alt="" style="height: 80px;width: 200px;margin-right: 0px">
+        <!--<a class="navbar-brand" href="#">Your Website</a>-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" id="nav-language" >
+            <li class="nav-item active">
+
+            <li>
+              <a href="index.html" role="button" class="btn btn-light">English</a>
+            </li>
+
+            <li>
+              <a href="sinhala-landing.html" role="button" class="btn btn-light">සිංහල</a>
+            </li>
+
+            <li>
+              <a href="tamil-landing.html" role="button" class="btn btn-light">தமிழ்</a>
+            </li>
+
+
+
+
+            </li>
+            <li class="nav-item" id="login-id">
+              <a class="nav-link" href= ""><i class="fa-solid fa-user fa-lg"></i>&nbsp;Login</a>
+            </li>
+            <li class="nav-item" id="Postadd-id">
+              <a class="nav-link" href=""><button type="button" id="post-addBtn" class="btn btn-warning">POST ADD NOW</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+<!--nav-bar-end-->
+<!--add Details View-->
+ <div class="container" id="add-details-view">
+  <div class="row">
+    <div class="head-title">
+      <h5>Toyota WXB First Owner 2018</h5>
+      <h6>posted yester day</h6>
+      <h6>Galle karapitiya</h6>
+    </div>
+    <div class="view">
+      <div class="slider-container" id="img-slider">
+        <div class="slides" >
+          <div class="slide"><img src="https://lankatik.sgp1.digitaloceanspaces.com/products/32195320de66fcf79590871498609b2c.jpg" alt="Slide 1"></div>
+          <div class="slide"><img src="https://www.lankaad.lk/uploads/files/lk/14187/thumb-816x460-cac6e55a30534723d9dfa8527d88faf5.jpg" alt="Slide 2"></div>
+          <div class="slide"><img src="https://www.akjapanauto.jp/adds/105/31.jpg" alt="Slide 3"></div>
+          <div class="slide"><img src="https://www.akjapanauto.jp/adds/105/18.jpg"></div>
+          <div class="slide"><img src="https://www.akjapanauto.jp/adds/105/21.jpg" alt="Slide 5"></div>
+        </div>
+        <div class="thumbnails"  onclick="thumbnailClick(event)">
+          <img class="thumbnail" src="https://lankatik.sgp1.digitaloceanspaces.com/products/32195320de66fcf79590871498609b2c.jpg" alt="Thumbnail 1">
+          <img class="thumbnail" src="https://www.lankaad.lk/uploads/files/lk/14187/thumb-816x460-cac6e55a30534723d9dfa8527d88faf5.jpg" alt="Thumbnail 2">
+          <img class="thumbnail" src="https://www.akjapanauto.jp/adds/105/31.jpg" alt="Thumbnail 3">
+          <img class="thumbnail" src="https://www.akjapanauto.jp/adds/105/18.jpg" alt="Thumbnail 4">
+          <img class="thumbnail" src="https://www.akjapanauto.jp/adds/105/21.jpg" alt="Thumbnail 5">
+        </div>
+        <div class="prev" onclick="prevSlide()">&#10094;</div>
+        <div class="next" onclick="nextSlide()">&#10095;</div>
+      </div>
+    </div>
+    <div class="details-add">
+      <h4 style="color: #FCD735">Rs 8,700,000</h4>
+      <h5>Details</h5>
+      <ul>
+        <li><h6>Brand:
+          Toyota</h6>
+          <h6>Trim / Edition:
+            Toyota</h6>
+          <h6>Condition:
+            Used</h6>
+          <h6>Body type:
+            Saloon</h6>
+          <h6>Engine capacity:
+            1,800 cc</h6>
+          <h6></h6>
+        </li>
+        <li><h6>
+          Model:
+          Prius</h6>
+          <h6>
+            Year of Manufacture:
+            2013</h6>
+          <h6>Condition:
+            Used</h6>
+          <h6>
+            Transmission:
+            Automatic</h6>
+          <h6>
+            Fuel type:
+            Hybrid</h6>
+          <h6>
+            Mileage:
+            150,000 km</h6></li>
+        <li><h5>Contact Details</h5>
+        <h6>Owner: kanchana prathibha</h6>
+
+        <h5><i class="fa-solid fa-phone fa-shake fa-xl"></i> 0773465426</h5></li>
+      </ul>
+    <h5>Description</h5>
+      <p>Toyota Prius S LED
+        Year of Register - 2014
+        LED Edition
+        Genuine Millage – Company records available
+        Echo/EV/PWR Mode
+        Push Start
+        Dual Multifunction
+        Zenon Scoop Auto Focus Head Lamps
+        Key Less Entry
+        Climate Control
+        Original Two Keys
+        Battery service records available
+        New 12V battery with warranty
+        Welcome lights
+        7,200,000
+        Fog Lamps
+        Door Wiser
+        Leather seats</p>
+     </div>
+   </div>
+ </div>
+<!--footer start-->
+
+<script src="js/add-view-details.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/d8fba019aa.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
